@@ -1,0 +1,4654 @@
+{
+ "stand": "Beispieldaten",
+ "docs": {
+  "config/teams": {
+   "teams": [
+    {
+     "id": "m1",
+     "name": "AK 30 I",
+     "liga": "Liga 5"
+    },
+    {
+     "id": "m2",
+     "name": "AK 30 II",
+     "liga": "Liga 5"
+    },
+    {
+     "id": "m3",
+     "name": "AK 30 III",
+     "liga": "Liga 5"
+    }
+   ]
+  },
+  "liga/analyse2026": {
+   "season": "2026",
+   "source": "GVNRW Liga-Portal · NRW-MM Herren AK 30",
+   "fetchedAt": 1792500667148,
+   "seg": {
+    "L4": {
+     "n": 1706,
+     "teams": 48,
+     "matches": 285,
+     "plusCR": 14.87,
+     "hcp": 8.62,
+     "brutto": 86.56,
+     "bird": 0.77,
+     "par": 6.47,
+     "bog": 6.66,
+     "dbl": 2.64,
+     "trip": 1.46,
+     "p3": 0.73,
+     "p4": 0.99,
+     "p5": 0.92,
+     "f9": 8.28,
+     "b9": 8.05,
+     "blowupRounds": 0.68,
+     "team5": 74.21,
+     "team5Median": 71,
+     "pos": [
+      8.74,
+      12.49,
+      14.95,
+      17.42,
+      20.61
+     ]
+    },
+    "L4up": {
+     "n": 284,
+     "teams": 8,
+     "matches": 47,
+     "plusCR": 11.45,
+     "hcp": 6.54,
+     "brutto": 83.16,
+     "bird": 1.08,
+     "par": 7.6,
+     "bog": 6.21,
+     "dbl": 2.08,
+     "trip": 1.03,
+     "p3": 0.61,
+     "p4": 0.79,
+     "p5": 0.65,
+     "f9": 6.46,
+     "b9": 6.38,
+     "blowupRounds": 0.54,
+     "team5": 57.04,
+     "team5Median": 56,
+     "pos": [
+      5.77,
+      9.11,
+      11.45,
+      13.64,
+      17.07
+     ]
+    },
+    "L4stay": {
+     "n": 857,
+     "teams": 24,
+     "matches": 143,
+     "plusCR": 13.95,
+     "hcp": 7.74,
+     "brutto": 85.65,
+     "bird": 0.79,
+     "par": 6.78,
+     "bog": 6.65,
+     "dbl": 2.48,
+     "trip": 1.29,
+     "p3": 0.69,
+     "p4": 0.94,
+     "p5": 0.85,
+     "f9": 7.79,
+     "b9": 7.63,
+     "blowupRounds": 0.67,
+     "team5": 69.47,
+     "team5Median": 67,
+     "pos": [
+      7.94,
+      11.73,
+      13.99,
+      16.36,
+      19.45
+     ]
+    },
+    "L4down": {
+     "n": 565,
+     "teams": 16,
+     "matches": 95,
+     "plusCR": 17.97,
+     "hcp": 11.01,
+     "brutto": 89.65,
+     "bird": 0.59,
+     "par": 5.44,
+     "bog": 6.9,
+     "dbl": 3.16,
+     "trip": 1.92,
+     "p3": 0.85,
+     "p4": 1.16,
+     "p5": 1.15,
+     "f9": 9.95,
+     "b9": 9.54,
+     "blowupRounds": 0.78,
+     "team5": 89.83,
+     "team5Median": 88,
+     "pos": [
+      11.41,
+      15.32,
+      18.12,
+      20.88,
+      24.1
+     ]
+    },
+    "L5": {
+     "n": 2194,
+     "teams": 69,
+     "matches": 368,
+     "plusCR": 20.44,
+     "hcp": 13.14,
+     "brutto": 91.2,
+     "bird": 0.44,
+     "par": 4.78,
+     "bog": 6.87,
+     "dbl": 3.57,
+     "trip": 2.34,
+     "p3": 0.99,
+     "p4": 1.31,
+     "p5": 1.34,
+     "f9": 11.13,
+     "b9": 10.98,
+     "blowupRounds": 0.82,
+     "team5": 102.06,
+     "team5Median": 102,
+     "pos": [
+      13.18,
+      17.35,
+      20.62,
+      23.68,
+      27.21
+     ]
+    },
+    "L5up": {
+     "n": 509,
+     "teams": 16,
+     "matches": 85,
+     "plusCR": 15.55,
+     "hcp": 9.77,
+     "brutto": 86.22,
+     "bird": 0.64,
+     "par": 6.16,
+     "bog": 6.8,
+     "dbl": 2.88,
+     "trip": 1.53,
+     "p3": 0.76,
+     "p4": 1.06,
+     "p5": 0.99,
+     "f9": 8.85,
+     "b9": 8.43,
+     "blowupRounds": 0.71,
+     "team5": 77.73,
+     "team5Median": 78.5,
+     "pos": [
+      9.07,
+      12.96,
+      15.81,
+      18.46,
+      21.42
+     ]
+    },
+    "L5rest": {
+     "n": 1685,
+     "teams": 53,
+     "matches": 283,
+     "plusCR": 21.9,
+     "hcp": 14.15,
+     "brutto": 92.69,
+     "bird": 0.38,
+     "par": 4.36,
+     "bog": 6.89,
+     "dbl": 3.79,
+     "trip": 2.59,
+     "p3": 1.06,
+     "p4": 1.39,
+     "p5": 1.45,
+     "f9": 11.82,
+     "b9": 11.75,
+     "blowupRounds": 0.86,
+     "team5": 109.36,
+     "team5Median": 107,
+     "pos": [
+      14.42,
+      18.67,
+      22.07,
+      25.25,
+      28.95
+     ]
+    },
+    "GCBO": {
+     "n": 30,
+     "teams": 1,
+     "matches": 5,
+     "plusCR": 21.84,
+     "hcp": 12.83,
+     "brutto": 93.4,
+     "bird": 0.37,
+     "par": 4.63,
+     "bog": 6.23,
+     "dbl": 3.77,
+     "trip": 3,
+     "p3": 1.08,
+     "p4": 1.52,
+     "p5": 1.42,
+     "f9": 12.77,
+     "b9": 12.17,
+     "blowupRounds": 0.93,
+     "team5": 109.2,
+     "team5Median": 113,
+     "pos": [
+      13.24,
+      19.04,
+      22.04,
+      25.24,
+      29.64
+     ]
+    }
+   },
+   "gcboGroup": "5.L",
+   "group": [
+    {
+     "rank": 1,
+     "club": "Varmert",
+     "avgCR": 88.6,
+     "points": 23,
+     "up": true
+    },
+    {
+     "rank": 2,
+     "club": "Gimborner Land",
+     "avgCR": 102.4,
+     "points": 18,
+     "up": false
+    },
+    {
+     "rank": 3,
+     "club": "Dreibäumen",
+     "avgCR": 112.8,
+     "points": 15,
+     "up": false
+    },
+    {
+     "rank": 4,
+     "club": "Burg Overbach",
+     "avgCR": 109.2,
+     "points": 13,
+     "up": false
+    },
+    {
+     "rank": 5,
+     "club": "Bonn-Godesberg 2",
+     "avgCR": 130.3,
+     "points": 5,
+     "up": false
+    }
+   ],
+   "winners": [
+    {
+     "g": "5.A",
+     "teams": [
+      {
+       "club": "Paderborner Land 1",
+       "avgCR": 76.9
+      }
+     ]
+    },
+    {
+     "g": "5.B",
+     "teams": [
+      {
+       "club": "Univ. GC Paderborn",
+       "avgCR": 57.2
+      }
+     ]
+    },
+    {
+     "g": "5.C",
+     "teams": [
+      {
+       "club": "Osnabrück-Dütetal",
+       "avgCR": 79.8
+      }
+     ]
+    },
+    {
+     "g": "5.D",
+     "teams": [
+      {
+       "club": "Münster-Tinnen 2",
+       "avgCR": 72.6
+      },
+      {
+       "club": "Werne",
+       "avgCR": 79.2
+      }
+     ]
+    },
+    {
+     "g": "5.E",
+     "teams": [
+      {
+       "club": "Sauerland",
+       "avgCR": 65.4
+      }
+     ]
+    },
+    {
+     "g": "5.F",
+     "teams": [
+      {
+       "club": "Gelsenkirchen Haus Leythe 2",
+       "avgCR": 75
+      },
+      {
+       "club": "Schloss Westerholt",
+       "avgCR": 74.2
+      }
+     ]
+    },
+    {
+     "g": "5.G",
+     "teams": [
+      {
+       "club": "Kosaido",
+       "avgCR": 80.8
+      },
+      {
+       "club": "Velbert Gut Kuhlendahl 3",
+       "avgCR": 81.2
+      }
+     ]
+    },
+    {
+     "g": "5.H",
+     "teams": [
+      {
+       "club": "Coesfeld",
+       "avgCR": 89.7
+      }
+     ]
+    },
+    {
+     "g": "5.I",
+     "teams": [
+      {
+       "club": "Mülheim an der Ruhr 2",
+       "avgCR": 78.2
+      }
+     ]
+    },
+    {
+     "g": "5.J",
+     "teams": [
+      {
+       "club": "Schmitzhof 2",
+       "avgCR": 89.8
+      }
+     ]
+    },
+    {
+     "g": "5.K",
+     "teams": [
+      {
+       "club": "Bonn-Godesberg 1",
+       "avgCR": 67.5
+      }
+     ]
+    },
+    {
+     "g": "5.L",
+     "teams": [
+      {
+       "club": "Varmert",
+       "avgCR": 88.6
+      }
+     ]
+    },
+    {
+     "g": "5.M",
+     "teams": [
+      {
+       "club": "Wittgensteiner Land",
+       "avgCR": 81.4
+      }
+     ]
+    }
+   ],
+   "l4DownBest": 68.8,
+   "players": []
+  },
+  "weather/much": {
+   "place": "Much",
+   "lat": 50.9028,
+   "lon": 7.4036,
+   "source": "Open-Meteo (DWD ICON und weitere Modelle)",
+   "updatedAt": 1792517700000,
+   "daily": [
+    {
+     "date": "2026-10-20",
+     "code": 63,
+     "tmax": 11.1,
+     "tmin": 3.9,
+     "prec": 10.9,
+     "pp": 92,
+     "wind": 18.7,
+     "gust": 34.6,
+     "rise": "08:01",
+     "set": "18:27"
+    },
+    {
+     "date": "2026-10-21",
+     "code": 55,
+     "tmax": 11.9,
+     "tmin": 6.8,
+     "prec": 3.8,
+     "pp": 99,
+     "wind": 13.3,
+     "gust": 27,
+     "rise": "08:03",
+     "set": "18:25"
+    },
+    {
+     "date": "2026-10-22",
+     "code": 51,
+     "tmax": 10.5,
+     "tmin": 3.4,
+     "prec": 0.9,
+     "pp": 63,
+     "wind": 21.6,
+     "gust": 41.8,
+     "rise": "08:05",
+     "set": "18:23"
+    },
+    {
+     "date": "2026-10-23",
+     "code": 80,
+     "tmax": 12.6,
+     "tmin": 6,
+     "prec": 6.3,
+     "pp": 75,
+     "wind": 36.5,
+     "gust": 68.8,
+     "rise": "08:06",
+     "set": "18:21"
+    },
+    {
+     "date": "2026-10-24",
+     "code": 80,
+     "tmax": 8.2,
+     "tmin": 5.5,
+     "prec": 9.4,
+     "pp": 64,
+     "wind": 34.4,
+     "gust": 65.9,
+     "rise": "08:08",
+     "set": "18:19"
+    },
+    {
+     "date": "2026-10-25",
+     "code": 81,
+     "tmax": 11.4,
+     "tmin": 5.9,
+     "prec": 33,
+     "pp": 87,
+     "wind": 28.4,
+     "gust": 56.9,
+     "rise": "08:10",
+     "set": "18:17"
+    },
+    {
+     "date": "2026-10-26",
+     "code": 51,
+     "tmax": 10,
+     "tmin": 5,
+     "prec": 2.7,
+     "pp": 42,
+     "wind": 25.7,
+     "gust": 50.8,
+     "rise": "08:11",
+     "set": "18:16"
+    }
+   ],
+   "hourly": [
+    {
+     "t": "2026-10-20T07:00",
+     "temp": 4,
+     "prec": 0.0,
+     "pp": 0,
+     "wind": 13,
+     "gust": 25,
+     "code": 2
+    },
+    {
+     "t": "2026-10-20T08:00",
+     "temp": 4,
+     "prec": 0.0,
+     "pp": 0,
+     "wind": 14,
+     "gust": 27,
+     "code": 1
+    },
+    {
+     "t": "2026-10-20T09:00",
+     "temp": 5,
+     "prec": 0.0,
+     "pp": 0,
+     "wind": 14,
+     "gust": 29,
+     "code": 0
+    },
+    {
+     "t": "2026-10-20T10:00",
+     "temp": 6,
+     "prec": 0.0,
+     "pp": 0,
+     "wind": 16,
+     "gust": 31,
+     "code": 3
+    },
+    {
+     "t": "2026-10-20T11:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 0,
+     "wind": 15,
+     "gust": 33,
+     "code": 0
+    },
+    {
+     "t": "2026-10-20T12:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 0,
+     "wind": 17,
+     "gust": 35,
+     "code": 0
+    },
+    {
+     "t": "2026-10-20T13:00",
+     "temp": 10,
+     "prec": 0.0,
+     "pp": 0,
+     "wind": 17,
+     "gust": 32,
+     "code": 1
+    },
+    {
+     "t": "2026-10-20T14:00",
+     "temp": 11,
+     "prec": 0.0,
+     "pp": 0,
+     "wind": 17,
+     "gust": 32,
+     "code": 1
+    },
+    {
+     "t": "2026-10-20T15:00",
+     "temp": 11,
+     "prec": 0.0,
+     "pp": 7,
+     "wind": 14,
+     "gust": 28,
+     "code": 3
+    },
+    {
+     "t": "2026-10-20T16:00",
+     "temp": 10,
+     "prec": 0.1,
+     "pp": 18,
+     "wind": 15,
+     "gust": 27,
+     "code": 51
+    },
+    {
+     "t": "2026-10-20T17:00",
+     "temp": 9,
+     "prec": 3.7,
+     "pp": 31,
+     "wind": 11,
+     "gust": 27,
+     "code": 63
+    },
+    {
+     "t": "2026-10-20T18:00",
+     "temp": 9,
+     "prec": 0.6,
+     "pp": 47,
+     "wind": 13,
+     "gust": 22,
+     "code": 53
+    },
+    {
+     "t": "2026-10-20T19:00",
+     "temp": 9,
+     "prec": 0.2,
+     "pp": 66,
+     "wind": 16,
+     "gust": 28,
+     "code": 51
+    },
+    {
+     "t": "2026-10-20T20:00",
+     "temp": 9,
+     "prec": 0.5,
+     "pp": 80,
+     "wind": 17,
+     "gust": 31,
+     "code": 53
+    },
+    {
+     "t": "2026-10-21T07:00",
+     "temp": 8,
+     "prec": 0.2,
+     "pp": 99,
+     "wind": 5,
+     "gust": 8,
+     "code": 51
+    },
+    {
+     "t": "2026-10-21T08:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 96,
+     "wind": 6,
+     "gust": 10,
+     "code": 3
+    },
+    {
+     "t": "2026-10-21T09:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 78,
+     "wind": 5,
+     "gust": 9,
+     "code": 3
+    },
+    {
+     "t": "2026-10-21T10:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 52,
+     "wind": 7,
+     "gust": 12,
+     "code": 3
+    },
+    {
+     "t": "2026-10-21T11:00",
+     "temp": 10,
+     "prec": 0.0,
+     "pp": 31,
+     "wind": 9,
+     "gust": 16,
+     "code": 3
+    },
+    {
+     "t": "2026-10-21T12:00",
+     "temp": 11,
+     "prec": 0.0,
+     "pp": 20,
+     "wind": 11,
+     "gust": 22,
+     "code": 3
+    },
+    {
+     "t": "2026-10-21T13:00",
+     "temp": 11,
+     "prec": 0.0,
+     "pp": 13,
+     "wind": 12,
+     "gust": 23,
+     "code": 3
+    },
+    {
+     "t": "2026-10-21T14:00",
+     "temp": 12,
+     "prec": 0.0,
+     "pp": 10,
+     "wind": 12,
+     "gust": 24,
+     "code": 3
+    },
+    {
+     "t": "2026-10-21T15:00",
+     "temp": 12,
+     "prec": 0.0,
+     "pp": 8,
+     "wind": 13,
+     "gust": 26,
+     "code": 2
+    },
+    {
+     "t": "2026-10-21T16:00",
+     "temp": 11,
+     "prec": 0.0,
+     "pp": 9,
+     "wind": 12,
+     "gust": 27,
+     "code": 3
+    },
+    {
+     "t": "2026-10-21T17:00",
+     "temp": 10,
+     "prec": 0.1,
+     "pp": 16,
+     "wind": 11,
+     "gust": 22,
+     "code": 51
+    },
+    {
+     "t": "2026-10-21T18:00",
+     "temp": 9,
+     "prec": 0.5,
+     "pp": 36,
+     "wind": 10,
+     "gust": 21,
+     "code": 53
+    },
+    {
+     "t": "2026-10-21T19:00",
+     "temp": 9,
+     "prec": 0.3,
+     "pp": 61,
+     "wind": 10,
+     "gust": 19,
+     "code": 51
+    },
+    {
+     "t": "2026-10-21T20:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 75,
+     "wind": 9,
+     "gust": 19,
+     "code": 3
+    },
+    {
+     "t": "2026-10-22T07:00",
+     "temp": 4,
+     "prec": 0.0,
+     "pp": 11,
+     "wind": 8,
+     "gust": 14,
+     "code": 0
+    },
+    {
+     "t": "2026-10-22T08:00",
+     "temp": 3,
+     "prec": 0.0,
+     "pp": 10,
+     "wind": 9,
+     "gust": 14,
+     "code": 0
+    },
+    {
+     "t": "2026-10-22T09:00",
+     "temp": 4,
+     "prec": 0.0,
+     "pp": 9,
+     "wind": 9,
+     "gust": 15,
+     "code": 1
+    },
+    {
+     "t": "2026-10-22T10:00",
+     "temp": 6,
+     "prec": 0.0,
+     "pp": 8,
+     "wind": 10,
+     "gust": 19,
+     "code": 2
+    },
+    {
+     "t": "2026-10-22T11:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 10,
+     "wind": 13,
+     "gust": 25,
+     "code": 3
+    },
+    {
+     "t": "2026-10-22T12:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 17,
+     "wind": 17,
+     "gust": 32,
+     "code": 3
+    },
+    {
+     "t": "2026-10-22T13:00",
+     "temp": 10,
+     "prec": 0.0,
+     "pp": 27,
+     "wind": 20,
+     "gust": 38,
+     "code": 3
+    },
+    {
+     "t": "2026-10-22T14:00",
+     "temp": 10,
+     "prec": 0.0,
+     "pp": 37,
+     "wind": 22,
+     "gust": 41,
+     "code": 3
+    },
+    {
+     "t": "2026-10-22T15:00",
+     "temp": 11,
+     "prec": 0.0,
+     "pp": 46,
+     "wind": 22,
+     "gust": 42,
+     "code": 3
+    },
+    {
+     "t": "2026-10-22T16:00",
+     "temp": 10,
+     "prec": 0.2,
+     "pp": 55,
+     "wind": 17,
+     "gust": 40,
+     "code": 51
+    },
+    {
+     "t": "2026-10-22T17:00",
+     "temp": 9,
+     "prec": 0.4,
+     "pp": 61,
+     "wind": 12,
+     "gust": 30,
+     "code": 51
+    },
+    {
+     "t": "2026-10-22T18:00",
+     "temp": 9,
+     "prec": 0.3,
+     "pp": 63,
+     "wind": 8,
+     "gust": 22,
+     "code": 51
+    },
+    {
+     "t": "2026-10-22T19:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 61,
+     "wind": 8,
+     "gust": 16,
+     "code": 3
+    },
+    {
+     "t": "2026-10-22T20:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 59,
+     "wind": 7,
+     "gust": 14,
+     "code": 3
+    },
+    {
+     "t": "2026-10-23T07:00",
+     "temp": 8,
+     "prec": 0.1,
+     "pp": 40,
+     "wind": 18,
+     "gust": 32,
+     "code": 51
+    },
+    {
+     "t": "2026-10-23T08:00",
+     "temp": 8,
+     "prec": 0.3,
+     "pp": 55,
+     "wind": 19,
+     "gust": 34,
+     "code": 51
+    },
+    {
+     "t": "2026-10-23T09:00",
+     "temp": 8,
+     "prec": 0.4,
+     "pp": 65,
+     "wind": 21,
+     "gust": 38,
+     "code": 51
+    },
+    {
+     "t": "2026-10-23T10:00",
+     "temp": 8,
+     "prec": 0.3,
+     "pp": 72,
+     "wind": 22,
+     "gust": 40,
+     "code": 51
+    },
+    {
+     "t": "2026-10-23T11:00",
+     "temp": 9,
+     "prec": 0.2,
+     "pp": 75,
+     "wind": 24,
+     "gust": 44,
+     "code": 51
+    },
+    {
+     "t": "2026-10-23T12:00",
+     "temp": 10,
+     "prec": 0.0,
+     "pp": 73,
+     "wind": 26,
+     "gust": 49,
+     "code": 3
+    },
+    {
+     "t": "2026-10-23T13:00",
+     "temp": 11,
+     "prec": 0.0,
+     "pp": 67,
+     "wind": 27,
+     "gust": 52,
+     "code": 3
+    },
+    {
+     "t": "2026-10-23T14:00",
+     "temp": 11,
+     "prec": 0.0,
+     "pp": 63,
+     "wind": 24,
+     "gust": 52,
+     "code": 3
+    },
+    {
+     "t": "2026-10-23T15:00",
+     "temp": 12,
+     "prec": 0.0,
+     "pp": 66,
+     "wind": 24,
+     "gust": 48,
+     "code": 2
+    },
+    {
+     "t": "2026-10-23T16:00",
+     "temp": 12,
+     "prec": 0.1,
+     "pp": 71,
+     "wind": 24,
+     "gust": 53,
+     "code": 51
+    },
+    {
+     "t": "2026-10-23T17:00",
+     "temp": 10,
+     "prec": 0.9,
+     "pp": 73,
+     "wind": 26,
+     "gust": 57,
+     "code": 53
+    },
+    {
+     "t": "2026-10-23T18:00",
+     "temp": 10,
+     "prec": 0.5,
+     "pp": 66,
+     "wind": 27,
+     "gust": 55,
+     "code": 53
+    },
+    {
+     "t": "2026-10-23T19:00",
+     "temp": 9,
+     "prec": 0.3,
+     "pp": 56,
+     "wind": 28,
+     "gust": 58,
+     "code": 51
+    },
+    {
+     "t": "2026-10-23T20:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 49,
+     "wind": 31,
+     "gust": 59,
+     "code": 2
+    },
+    {
+     "t": "2026-10-24T07:00",
+     "temp": 6,
+     "prec": 0.3,
+     "pp": 54,
+     "wind": 26,
+     "gust": 55,
+     "code": 51
+    },
+    {
+     "t": "2026-10-24T08:00",
+     "temp": 6,
+     "prec": 0.3,
+     "pp": 49,
+     "wind": 25,
+     "gust": 52,
+     "code": 51
+    },
+    {
+     "t": "2026-10-24T09:00",
+     "temp": 6,
+     "prec": 1.5,
+     "pp": 43,
+     "wind": 24,
+     "gust": 50,
+     "code": 80
+    },
+    {
+     "t": "2026-10-24T10:00",
+     "temp": 6,
+     "prec": 1.5,
+     "pp": 37,
+     "wind": 23,
+     "gust": 49,
+     "code": 80
+    },
+    {
+     "t": "2026-10-24T11:00",
+     "temp": 6,
+     "prec": 1.5,
+     "pp": 35,
+     "wind": 22,
+     "gust": 48,
+     "code": 80
+    },
+    {
+     "t": "2026-10-24T12:00",
+     "temp": 6,
+     "prec": 0.4,
+     "pp": 41,
+     "wind": 22,
+     "gust": 46,
+     "code": 51
+    },
+    {
+     "t": "2026-10-24T13:00",
+     "temp": 7,
+     "prec": 0.4,
+     "pp": 50,
+     "wind": 22,
+     "gust": 44,
+     "code": 51
+    },
+    {
+     "t": "2026-10-24T14:00",
+     "temp": 7,
+     "prec": 0.4,
+     "pp": 57,
+     "wind": 23,
+     "gust": 43,
+     "code": 51
+    },
+    {
+     "t": "2026-10-24T15:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 58,
+     "wind": 23,
+     "gust": 43,
+     "code": 3
+    },
+    {
+     "t": "2026-10-24T16:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 56,
+     "wind": 22,
+     "gust": 43,
+     "code": 3
+    },
+    {
+     "t": "2026-10-24T17:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 53,
+     "wind": 20,
+     "gust": 43,
+     "code": 3
+    },
+    {
+     "t": "2026-10-24T18:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 50,
+     "wind": 17,
+     "gust": 42,
+     "code": 3
+    },
+    {
+     "t": "2026-10-24T19:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 46,
+     "wind": 14,
+     "gust": 41,
+     "code": 3
+    },
+    {
+     "t": "2026-10-24T20:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 43,
+     "wind": 12,
+     "gust": 39,
+     "code": 3
+    },
+    {
+     "t": "2026-10-25T07:00",
+     "temp": 7,
+     "prec": 3.4,
+     "pp": 84,
+     "wind": 28,
+     "gust": 55,
+     "code": 63
+    },
+    {
+     "t": "2026-10-25T08:00",
+     "temp": 7,
+     "prec": 3.4,
+     "pp": 82,
+     "wind": 28,
+     "gust": 57,
+     "code": 63
+    },
+    {
+     "t": "2026-10-25T09:00",
+     "temp": 7,
+     "prec": 4.0,
+     "pp": 81,
+     "wind": 28,
+     "gust": 57,
+     "code": 81
+    },
+    {
+     "t": "2026-10-25T10:00",
+     "temp": 7,
+     "prec": 4.0,
+     "pp": 79,
+     "wind": 28,
+     "gust": 56,
+     "code": 81
+    },
+    {
+     "t": "2026-10-25T11:00",
+     "temp": 8,
+     "prec": 4.0,
+     "pp": 78,
+     "wind": 25,
+     "gust": 55,
+     "code": 81
+    },
+    {
+     "t": "2026-10-25T12:00",
+     "temp": 9,
+     "prec": 2.3,
+     "pp": 76,
+     "wind": 15,
+     "gust": 55,
+     "code": 80
+    },
+    {
+     "t": "2026-10-25T13:00",
+     "temp": 10,
+     "prec": 2.3,
+     "pp": 74,
+     "wind": 17,
+     "gust": 54,
+     "code": 80
+    },
+    {
+     "t": "2026-10-25T14:00",
+     "temp": 11,
+     "prec": 2.3,
+     "pp": 73,
+     "wind": 27,
+     "gust": 53,
+     "code": 80
+    },
+    {
+     "t": "2026-10-25T15:00",
+     "temp": 11,
+     "prec": 0.1,
+     "pp": 73,
+     "wind": 27,
+     "gust": 53,
+     "code": 51
+    },
+    {
+     "t": "2026-10-25T16:00",
+     "temp": 11,
+     "prec": 0.1,
+     "pp": 73,
+     "wind": 23,
+     "gust": 52,
+     "code": 51
+    },
+    {
+     "t": "2026-10-25T17:00",
+     "temp": 10,
+     "prec": 0.1,
+     "pp": 71,
+     "wind": 19,
+     "gust": 50,
+     "code": 51
+    },
+    {
+     "t": "2026-10-25T18:00",
+     "temp": 10,
+     "prec": 0.0,
+     "pp": 65,
+     "wind": 19,
+     "gust": 46,
+     "code": 0
+    },
+    {
+     "t": "2026-10-25T19:00",
+     "temp": 9,
+     "prec": 0.0,
+     "pp": 57,
+     "wind": 19,
+     "gust": 41,
+     "code": 1
+    },
+    {
+     "t": "2026-10-25T20:00",
+     "temp": 8,
+     "prec": 0.0,
+     "pp": 51,
+     "wind": 19,
+     "gust": 37,
+     "code": 1
+    },
+    {
+     "t": "2026-10-26T07:00",
+     "temp": 5,
+     "prec": 0.0,
+     "pp": 26,
+     "wind": 11,
+     "gust": 22,
+     "code": 1
+    },
+    {
+     "t": "2026-10-26T08:00",
+     "temp": 5,
+     "prec": 0.0,
+     "pp": 27,
+     "wind": 11,
+     "gust": 22,
+     "code": 1
+    },
+    {
+     "t": "2026-10-26T09:00",
+     "temp": 7,
+     "prec": 0.3,
+     "pp": 28,
+     "wind": 23,
+     "gust": 46,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T10:00",
+     "temp": 8,
+     "prec": 0.3,
+     "pp": 29,
+     "wind": 23,
+     "gust": 46,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T11:00",
+     "temp": 8,
+     "prec": 0.3,
+     "pp": 30,
+     "wind": 24,
+     "gust": 47,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T12:00",
+     "temp": 9,
+     "prec": 0.3,
+     "pp": 32,
+     "wind": 25,
+     "gust": 48,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T13:00",
+     "temp": 10,
+     "prec": 0.3,
+     "pp": 35,
+     "wind": 25,
+     "gust": 49,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T14:00",
+     "temp": 10,
+     "prec": 0.3,
+     "pp": 37,
+     "wind": 26,
+     "gust": 49,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T15:00",
+     "temp": 10,
+     "prec": 0.1,
+     "pp": 38,
+     "wind": 25,
+     "gust": 49,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T16:00",
+     "temp": 10,
+     "prec": 0.1,
+     "pp": 38,
+     "wind": 24,
+     "gust": 50,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T17:00",
+     "temp": 10,
+     "prec": 0.1,
+     "pp": 38,
+     "wind": 22,
+     "gust": 51,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T18:00",
+     "temp": 9,
+     "prec": 0.1,
+     "pp": 38,
+     "wind": 19,
+     "gust": 51,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T19:00",
+     "temp": 9,
+     "prec": 0.1,
+     "pp": 38,
+     "wind": 17,
+     "gust": 50,
+     "code": 51
+    },
+    {
+     "t": "2026-10-26T20:00",
+     "temp": 9,
+     "prec": 0.1,
+     "pp": 37,
+     "wind": 16,
+     "gust": 49,
+     "code": 51
+    }
+   ]
+  }
+ },
+ "cols": {
+  "players": {
+   "p-max-muster": {
+    "name": "Max Muster",
+    "teamId": "m1",
+    "hcp": "6,2"
+   },
+   "p-tom-beispiel": {
+    "name": "Tom Beispiel",
+    "teamId": "m1",
+    "hcp": "9,8"
+   },
+   "p-jan-probe": {
+    "name": "Jan Probe",
+    "teamId": "m2",
+    "hcp": "14,5"
+   },
+   "p-ben-test": {
+    "name": "Ben Test",
+    "teamId": "m2",
+    "hcp": "16,9"
+   },
+   "p-ole-demo": {
+    "name": "Ole Demo",
+    "teamId": "m3",
+    "hcp": "21,3"
+   },
+   "p-kai-vorlage": {
+    "name": "Kai Vorlage",
+    "teamId": "m3",
+    "hcp": "26,0"
+   }
+  },
+  "pcc": {
+   "p-max-muster": {
+    "playerId": "p-max-muster",
+    "rounds": [
+     {
+      "id": "pcc-demo4-max-muster",
+      "playerId": "p-max-muster",
+      "date": "2026-05-06",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-05-06",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 2
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 6.2
+     },
+     {
+      "id": "pcc-demo1-max-muster",
+      "playerId": "p-max-muster",
+      "date": "2026-06-10",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-10",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 6.2
+     },
+     {
+      "id": "pcc-demo0-max-muster",
+      "playerId": "p-max-muster",
+      "date": "2026-07-29",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-07-29",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 6.2
+     },
+     {
+      "id": "pcc-demo2-max-muster",
+      "playerId": "p-max-muster",
+      "date": "2026-08-12",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-08-12",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 6.2
+     },
+     {
+      "id": "pcc-demo5-max-muster",
+      "playerId": "p-max-muster",
+      "date": "2026-09-02",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-09-02",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 6.2
+     },
+     {
+      "id": "pcc-demo3-max-muster",
+      "playerId": "p-max-muster",
+      "date": "2026-10-07",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-10-07",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 6.2
+     }
+    ]
+   },
+   "p-tom-beispiel": {
+    "playerId": "p-tom-beispiel",
+    "rounds": [
+     {
+      "id": "pcc-demo3-tom-beispiel",
+      "playerId": "p-tom-beispiel",
+      "date": "2026-05-06",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-05-06",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 9.8
+     },
+     {
+      "id": "pcc-demo1-tom-beispiel",
+      "playerId": "p-tom-beispiel",
+      "date": "2026-05-20",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-05-20",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 9.8
+     },
+     {
+      "id": "pcc-demo2-tom-beispiel",
+      "playerId": "p-tom-beispiel",
+      "date": "2026-06-10",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-10",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 3
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 9.8
+     },
+     {
+      "id": "pcc-demo0-tom-beispiel",
+      "playerId": "p-tom-beispiel",
+      "date": "2026-07-08",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-07-08",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 9.8
+     },
+     {
+      "id": "pcc-demo4-tom-beispiel",
+      "playerId": "p-tom-beispiel",
+      "date": "2026-07-29",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-07-29",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 7
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 9.8
+     },
+     {
+      "id": "pcc-demo5-tom-beispiel",
+      "playerId": "p-tom-beispiel",
+      "date": "2026-09-02",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-09-02",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 9.8
+     }
+    ]
+   },
+   "p-jan-probe": {
+    "playerId": "p-jan-probe",
+    "rounds": [
+     {
+      "id": "pcc-demo5-jan-probe",
+      "playerId": "p-jan-probe",
+      "date": "2026-05-20",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-05-20",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 14.5
+     },
+     {
+      "id": "pcc-demo3-jan-probe",
+      "playerId": "p-jan-probe",
+      "date": "2026-06-10",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-10",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 4
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 14.5
+     },
+     {
+      "id": "pcc-demo4-jan-probe",
+      "playerId": "p-jan-probe",
+      "date": "2026-06-24",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-24",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 3
+       },
+       {
+        "par": 5,
+        "s": 9
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 14.5
+     },
+     {
+      "id": "pcc-demo0-jan-probe",
+      "playerId": "p-jan-probe",
+      "date": "2026-08-12",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-08-12",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 14.5
+     },
+     {
+      "id": "pcc-demo1-jan-probe",
+      "playerId": "p-jan-probe",
+      "date": "2026-09-23",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-09-23",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 9
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 3
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 14.5
+     },
+     {
+      "id": "pcc-demo2-jan-probe",
+      "playerId": "p-jan-probe",
+      "date": "2026-10-07",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-10-07",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 14.5
+     }
+    ]
+   },
+   "p-ben-test": {
+    "playerId": "p-ben-test",
+    "rounds": [
+     {
+      "id": "pcc-demo0-ben-test",
+      "playerId": "p-ben-test",
+      "date": "2026-05-20",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-05-20",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 16.9
+     },
+     {
+      "id": "pcc-demo3-ben-test",
+      "playerId": "p-ben-test",
+      "date": "2026-06-10",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-10",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 16.9
+     },
+     {
+      "id": "pcc-demo1-ben-test",
+      "playerId": "p-ben-test",
+      "date": "2026-06-24",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-24",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 16.9
+     },
+     {
+      "id": "pcc-demo5-ben-test",
+      "playerId": "p-ben-test",
+      "date": "2026-07-08",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-07-08",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 16.9
+     },
+     {
+      "id": "pcc-demo4-ben-test",
+      "playerId": "p-ben-test",
+      "date": "2026-07-29",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-07-29",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 9
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 2
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 16.9
+     },
+     {
+      "id": "pcc-demo2-ben-test",
+      "playerId": "p-ben-test",
+      "date": "2026-09-02",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-09-02",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 16.9
+     }
+    ]
+   },
+   "p-ole-demo": {
+    "playerId": "p-ole-demo",
+    "rounds": [
+     {
+      "id": "pcc-demo5-ole-demo",
+      "playerId": "p-ole-demo",
+      "date": "2026-05-06",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-05-06",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 21.3
+     },
+     {
+      "id": "pcc-demo0-ole-demo",
+      "playerId": "p-ole-demo",
+      "date": "2026-06-10",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-10",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 21.3
+     },
+     {
+      "id": "pcc-demo1-ole-demo",
+      "playerId": "p-ole-demo",
+      "date": "2026-06-24",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-24",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 2
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 9
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 21.3
+     },
+     {
+      "id": "pcc-demo4-ole-demo",
+      "playerId": "p-ole-demo",
+      "date": "2026-07-29",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-07-29",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 21.3
+     },
+     {
+      "id": "pcc-demo2-ole-demo",
+      "playerId": "p-ole-demo",
+      "date": "2026-09-02",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-09-02",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 7
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 21.3
+     },
+     {
+      "id": "pcc-demo3-ole-demo",
+      "playerId": "p-ole-demo",
+      "date": "2026-09-23",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-09-23",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 9
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 21.3
+     }
+    ]
+   },
+   "p-kai-vorlage": {
+    "playerId": "p-kai-vorlage",
+    "rounds": [
+     {
+      "id": "pcc-demo4-kai-vorlage",
+      "playerId": "p-kai-vorlage",
+      "date": "2026-05-20",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-05-20",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 5,
+        "s": 9
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 7
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 26.0
+     },
+     {
+      "id": "pcc-demo0-kai-vorlage",
+      "playerId": "p-kai-vorlage",
+      "date": "2026-06-10",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-10",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 7
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 26.0
+     },
+     {
+      "id": "pcc-demo1-kai-vorlage",
+      "playerId": "p-kai-vorlage",
+      "date": "2026-06-24",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-06-24",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 8
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 9
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 26.0
+     },
+     {
+      "id": "pcc-demo3-kai-vorlage",
+      "playerId": "p-kai-vorlage",
+      "date": "2026-07-08",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-07-08",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 3,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 8
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 26.0
+     },
+     {
+      "id": "pcc-demo2-kai-vorlage",
+      "playerId": "p-kai-vorlage",
+      "date": "2026-08-12",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-08-12",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 3,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 3
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 5,
+        "s": 5
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 26.0
+     },
+     {
+      "id": "pcc-demo5-kai-vorlage",
+      "playerId": "p-kai-vorlage",
+      "date": "2026-09-23",
+      "course": "Burg Overbach",
+      "kind": "Turnier",
+      "source": "pccaddie",
+      "tournament": "Herrengolf (Beispiel)",
+      "tid": "demo-2026-09-23",
+      "detail": false,
+      "holes": [
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 7
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 5,
+        "s": 7
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 8
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 5,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 6
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 5
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 3,
+        "s": 3
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       },
+       {
+        "par": 4,
+        "s": 4
+       },
+       {
+        "par": 5,
+        "s": 6
+       }
+      ],
+      "stbfBrutto": null,
+      "stbfNetto": null,
+      "hcpi": 26.0
+     }
+    ]
+   }
+  },
+  "events": {
+   "spring-invitational-2027": {
+    "type": "turnier",
+    "teamId": "all",
+    "title": "Spring Invitational",
+    "date": "2027-05-01",
+    "time": "",
+    "place": "Burg Overbach",
+    "note": "",
+    "lineup": [],
+    "lineupPublished": false
+   }
+  },
+  "rounds": {},
+  "plans": {},
+  "rsvp": {},
+  "ligar": {}
+ }
+}

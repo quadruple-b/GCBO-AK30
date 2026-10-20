@@ -1,0 +1,26 @@
+<script>
+/* Vorschau-Modus: Daten-Schnappschuss, Änderungen nur im Speicher dieses Browsers */
+(function(){
+  const DATA=__DATA__;
+  const store={};const L={doc:{},col:{}};
+  for(const [p,v] of Object.entries(DATA.docs)) store[p]=v;
+  for(const [c,docs] of Object.entries(DATA.cols)) for(const [id,v] of Object.entries(docs)) store[c+"/"+id]=v;
+  const snapDoc=p=>({id:p.split("/").pop(),exists:p in store,data:()=>store[p],metadata:{fromCache:false,hasPendingWrites:false}});
+  const colDocs=c=>Object.keys(store).filter(p=>p.startsWith(c+"/")&&p.split("/").length===c.split("/").length+1).map(snapDoc);
+  const fire=p=>{(L.doc[p]||[]).forEach(f=>f(snapDoc(p)));const c=p.split("/").slice(0,-1).join("/");(L.col[c]||[]).forEach(f=>f({docs:colDocs(c),size:colDocs(c).length,empty:!colDocs(c).length,docChanges:()=>[],metadata:{}}))};
+  const docRef=p=>({id:p.split("/").pop(),path:p,
+    get:async()=>snapDoc(p),set:async d=>{store[p]=JSON.parse(JSON.stringify(d));fire(p)},
+    update:async d=>{if(!(p in store))throw{code:"invalid_argument"};store[p]=Object.assign({},store[p],JSON.parse(JSON.stringify(d)));fire(p)},
+    delete:async()=>{delete store[p];fire(p)},
+    onSnapshot:(n)=>{(L.doc[p]=L.doc[p]||[]).push(n);setTimeout(()=>n(snapDoc(p)),0);return()=>{}},
+    collection:c=>colRef(p+"/"+c)});
+  const colRef=c=>({path:c,doc:id=>docRef(c+"/"+(id||Date.now().toString(36)+Math.random().toString(36).slice(2,7))),
+    add:async d=>{const r=docRef(c+"/"+Date.now().toString(36));await r.set(d);return r},
+    get:async()=>({docs:colDocs(c),size:colDocs(c).length,empty:!colDocs(c).length,docChanges:()=>[],metadata:{}}),
+    onSnapshot:(n)=>{(L.col[c]=L.col[c]||[]).push(n);setTimeout(()=>n({docs:colDocs(c),size:colDocs(c).length,empty:!colDocs(c).length,docChanges:()=>[],metadata:{}}),0);return()=>{}},
+    where(){return this},orderBy(){return this},limit(){return this}});
+  const db={doc:docRef,collection:colRef};
+  const user={isOwner:async()=>true,canEdit:async()=>true,can:async()=>true,id:async()=>"preview",me:async()=>({id:"preview",name:""})};
+  window.claude={use:async n=>n==="db"?db:n==="user"?user:null};
+})();
+</script>

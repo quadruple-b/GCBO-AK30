@@ -1,0 +1,30 @@
+rules_version = '2';
+
+// Rollen kommen aus members/{email}: {role: "captain" | "member", name: "..."}
+// captain = Captain/Bearbeiter (alles), member = Spieler/Trainer (eigene Beiträge)
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null && request.auth.token.email_verified == true; }
+    function memberDoc() { return /databases/$(database)/documents/members/$(request.auth.token.email.lower()); }
+    function isMember() { return signedIn() && exists(memberDoc()); }
+    function isCaptain() { return isMember() && get(memberDoc()).data.role == 'captain'; }
+
+    // Mitgliederliste: jeder sieht seinen eigenen Eintrag, nur Captains verwalten
+    match /members/{email} {
+      allow read: if signedIn() && (email == request.auth.token.email.lower() || isCaptain());
+      allow write: if isCaptain();
+    }
+
+    // Stammdaten und Importe: lesen alle Mitglieder, schreiben nur Captains
+    match /{col}/{doc} {
+      allow read: if isMember() && col in ['config','players','events','teetimes','liga','pcc','ligar','weather'];
+      allow write: if isCaptain() && col in ['config','players','events','teetimes','liga','pcc','ligar','weather'];
+    }
+
+    // Beiträge der Mitglieder: Scorekarten, Zu-/Absagen, Trainingspläne
+    match /rounds/{id} { allow read, write: if isMember(); }
+    match /rsvp/{id}   { allow read, write: if isMember(); }
+    match /plans/{id}  { allow read, write: if isMember(); }
+  }
+}
